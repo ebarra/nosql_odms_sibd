@@ -3,12 +3,13 @@
   "version": "0.0.1",
   "private": true,
   "disableHashCheck": true,
+  "debug": true,
   "info": {
-        "githubURL": "ebarra/nosql_odms_sibd.git",
-        "serverUrl": "https://autocorector.dit.upm.es/",
-        "courseId": "8762",
-        "assignmentId": "101436"
-    },
+    "githubURL": "ebarra/nosql_odms_sibd",
+    "serverUrl": "https://autocorector.dit.upm.es/",
+    "courseId": "8762",
+    "assignmentId": "101436"
+  },
   "scripts": {
     "start": "node rest_server.js",
     "seed": "md-seed run",
